@@ -1,5 +1,4 @@
-#!/usr/bin/ruby
-
+ #!/usr/bin/ruby
 require 'json'
 
 STDOUT.sync = true
@@ -17,5 +16,5 @@ loop do
       inventory: INVENTORY.sample,
     }, quirks_mode: true)
   end
-  sleep 1
+  sleep 10
 end
